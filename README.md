@@ -138,7 +138,7 @@ Fields should be defined at the __top of the file__ and they should follow the n
 * Fields start with a lower case letter.
 * Static final fields (constants) are ALL_CAPS_WITH_UNDERSCORES.
 
-Avoid using Hungarian Notaion (__m__ or __s__ prefixes does not improve development process).
+Avoid using Hungarian Notaion, despite the official [AOSP Documentation](https://source.android.com/setup/contribute/code-style#follow-field-naming-conventions) we don't see a clear advantage of using this notation in our code.
 
 Example:
 
